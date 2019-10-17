@@ -1,0 +1,16 @@
+#+title: Implementação A*
+
+* Como executar
+
++ Instale os requirements (pip install -r requirements.txt)
++ cd AstarAlgorithm/
++ python -m astar.main <argumentos>
+
+* Argumentos
+
++ --start: Cidade de origem (Como escrita no arquivo csv)
++ --end: Cidade de destino (Como escrita no arquivo csv)
+
+* Exemplo
+
++ python -m astar.main --start 'Porto Alegre' --end 'Palmas'
